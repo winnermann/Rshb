@@ -1,0 +1,26 @@
+#Локальное хранилище данных IDEA
+.idea/
+
+#Локальное хранилище данных Gradle
+.gradle/
+
+# Скомпиленные классы, сгенеренный код, результаты тестов и подобное.
+target/
+build/
+out/
+out
+gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+
+#Игнорируем данные Аллюра
+allure-results/
+/.allure/
+
+#Файл проекта IDEA.
+*.iml
+
+#Дамп данных при ошибках JVM. На всякий случай.
+hs_err_pid*
+
+debug.log
